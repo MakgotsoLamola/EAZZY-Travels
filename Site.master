@@ -1,0 +1,32 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="SiteMaster" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title>EaZZy-Travels</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="~/Site.css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="page-wrapper">
+            <header class="top-bar">
+                <p class="brand">EaZZy<span>-Travels</span></p>
+                <nav class="header-nav">
+                    <asp:ContentPlaceHolder ID="HeaderNav" runat="server" />
+                </nav>
+            </header>
+
+            <main class="content-area">
+                <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+            </main>
+
+            <footer class="site-footer">
+                <p>&copy; <%= DateTime.Now.Year %> EaZZy-Travels</p>
+            </footer>
+        </div>
+    </form>
+</body>
+</html>

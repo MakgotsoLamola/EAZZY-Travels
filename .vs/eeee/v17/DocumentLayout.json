@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\stuar\\OneDrive\\Documents\\Visual Studio Projects\\eeee\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{93C42A20-0C24-47FB-8179-64F69FFB7A5E}|eeee.csproj|C:\\Users\\stuar\\OneDrive\\Documents\\Visual Studio Projects\\eeee\\account\\createaccount.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{93C42A20-0C24-47FB-8179-64F69FFB7A5E}|eeee.csproj|solutionrelative:account\\createaccount.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93C42A20-0C24-47FB-8179-64F69FFB7A5E}|eeee.csproj|C:\\Users\\stuar\\OneDrive\\Documents\\Visual Studio Projects\\eeee\\account\\resetpassword.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93C42A20-0C24-47FB-8179-64F69FFB7A5E}|eeee.csproj|solutionrelative:account\\resetpassword.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93C42A20-0C24-47FB-8179-64F69FFB7A5E}|eeee.csproj|c:\\users\\stuar\\onedrive\\documents\\visual studio projects\\eeee\\account\\dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{93C42A20-0C24-47FB-8179-64F69FFB7A5E}|eeee.csproj|solutionrelative:account\\dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93C42A20-0C24-47FB-8179-64F69FFB7A5E}|eeee.csproj|C:\\Users\\stuar\\OneDrive\\Documents\\Visual Studio Projects\\eeee\\helpers\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93C42A20-0C24-47FB-8179-64F69FFB7A5E}|eeee.csproj|solutionrelative:helpers\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93C42A20-0C24-47FB-8179-64F69FFB7A5E}|eeee.csproj|C:\\Users\\stuar\\OneDrive\\Documents\\Visual Studio Projects\\eeee\\account\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93C42A20-0C24-47FB-8179-64F69FFB7A5E}|eeee.csproj|solutionrelative:account\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93C42A20-0C24-47FB-8179-64F69FFB7A5E}|eeee.csproj|C:\\Users\\stuar\\OneDrive\\Documents\\Visual Studio Projects\\eeee\\account\\verifycode.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93C42A20-0C24-47FB-8179-64F69FFB7A5E}|eeee.csproj|solutionrelative:account\\verifycode.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93C42A20-0C24-47FB-8179-64F69FFB7A5E}|eeee.csproj|C:\\Users\\stuar\\OneDrive\\Documents\\Visual Studio Projects\\eeee\\helpers\\emailhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93C42A20-0C24-47FB-8179-64F69FFB7A5E}|eeee.csproj|solutionrelative:helpers\\emailhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93C42A20-0C24-47FB-8179-64F69FFB7A5E}|eeee.csproj|C:\\Users\\stuar\\OneDrive\\Documents\\Visual Studio Projects\\eeee\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{93C42A20-0C24-47FB-8179-64F69FFB7A5E}|eeee.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dashboard.aspx",
+              "DocumentMoniker": "C:\\Users\\stuar\\OneDrive\\Documents\\Visual Studio Projects\\eeee\\Account\\Dashboard.aspx",
+              "RelativeDocumentMoniker": "Account\\Dashboard.aspx",
+              "ToolTip": "C:\\Users\\stuar\\OneDrive\\Documents\\Visual Studio Projects\\eeee\\Account\\Dashboard.aspx",
+              "RelativeToolTip": "Account\\Dashboard.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-08-27T17:55:35.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateAccount.aspx",
+              "DocumentMoniker": "C:\\Users\\stuar\\OneDrive\\Documents\\Visual Studio Projects\\eeee\\Account\\CreateAccount.aspx",
+              "RelativeDocumentMoniker": "Account\\CreateAccount.aspx",
+              "ToolTip": "C:\\Users\\stuar\\OneDrive\\Documents\\Visual Studio Projects\\eeee\\Account\\CreateAccount.aspx",
+              "RelativeToolTip": "Account\\CreateAccount.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-08-27T18:14:52.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ResetPassword.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\stuar\\OneDrive\\Documents\\Visual Studio Projects\\eeee\\Account\\ResetPassword.aspx.cs",
+              "RelativeDocumentMoniker": "Account\\ResetPassword.aspx.cs",
+              "ToolTip": "C:\\Users\\stuar\\OneDrive\\Documents\\Visual Studio Projects\\eeee\\Account\\ResetPassword.aspx.cs",
+              "RelativeToolTip": "Account\\ResetPassword.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-27T17:55:16.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmailHelper.cs",
+              "DocumentMoniker": "C:\\Users\\stuar\\OneDrive\\Documents\\Visual Studio Projects\\eeee\\Helpers\\EmailHelper.cs",
+              "RelativeDocumentMoniker": "Helpers\\EmailHelper.cs",
+              "ToolTip": "C:\\Users\\stuar\\OneDrive\\Documents\\Visual Studio Projects\\eeee\\Helpers\\EmailHelper.cs",
+              "RelativeToolTip": "Helpers\\EmailHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T16:31:11.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "VerifyCode.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\stuar\\OneDrive\\Documents\\Visual Studio Projects\\eeee\\Account\\VerifyCode.aspx.cs",
+              "RelativeDocumentMoniker": "Account\\VerifyCode.aspx.cs",
+              "ToolTip": "C:\\Users\\stuar\\OneDrive\\Documents\\Visual Studio Projects\\eeee\\Account\\VerifyCode.aspx.cs",
+              "RelativeToolTip": "Account\\VerifyCode.aspx.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAywGwAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-27T17:55:08.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\stuar\\OneDrive\\Documents\\Visual Studio Projects\\eeee\\Account\\Login.aspx.cs",
+              "RelativeDocumentMoniker": "Account\\Login.aspx.cs",
+              "ToolTip": "C:\\Users\\stuar\\OneDrive\\Documents\\Visual Studio Projects\\eeee\\Account\\Login.aspx.cs",
+              "RelativeToolTip": "Account\\Login.aspx.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwAEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-27T17:54:59.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PasswordHelper.cs",
+              "DocumentMoniker": "C:\\Users\\stuar\\OneDrive\\Documents\\Visual Studio Projects\\eeee\\Helpers\\PasswordHelper.cs",
+              "RelativeDocumentMoniker": "Helpers\\PasswordHelper.cs",
+              "ToolTip": "C:\\Users\\stuar\\OneDrive\\Documents\\Visual Studio Projects\\eeee\\Helpers\\PasswordHelper.cs",
+              "RelativeToolTip": "Helpers\\PasswordHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-27T17:53:46.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\stuar\\OneDrive\\Documents\\Visual Studio Projects\\eeee\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "C:\\Users\\stuar\\OneDrive\\Documents\\Visual Studio Projects\\eeee\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAABgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-08-27T17:00:15.676Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
