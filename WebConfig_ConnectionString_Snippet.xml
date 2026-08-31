@@ -1,0 +1,10 @@
+<!--
+  Paste this <connectionStrings> block inside your existing Web.config,
+  as a direct child of <configuration> (next to <system.web>, not inside it).
+  Update server/database/user/password to match your MySQL setup.
+-->
+<connectionStrings>
+    <add name="EazzyTravelsDb"
+         connectionString="Server=localhost;Database=eazzy_travels;Uid=root;Pwd=YOUR_PASSWORD;"
+         providerName="MySql.Data.MySqlClient" />
+</connectionStrings>
