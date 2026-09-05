@@ -27,8 +27,7 @@ namespace Eazzy_Travelss
             DateTime startDate = Calendar1.SelectedDate;
             string length = ddlLength.SelectedValue;
 
-            cmd = new SqlCommand(
-                "INSERT INTO SUBSCRIBER(CustomerID, SubscriptionType, SubscriptionDate, Length) " +
+            cmd = new SqlCommand("INSERT INTO SUBSCRIBER(CustomerID, SubscriptionType, SubscriptionDate, Length) " +
                 "VALUES(@CustomerID, @SubscriptionType, @StartDate, @Length)", conn);
 
             cmd.Parameters.AddWithValue("@CustomerID", customerID);
