@@ -1,0 +1,78 @@
+CREATE TABLE [dbo].[LoginInfo] (
+    [User_ID]       INT             IDENTITY (1, 1) NOT NULL,
+    [Username]      NVARCHAR (50)   NOT NULL,
+    [PasswordHash]  NVARCHAR (255)  NOT NULL,
+    [UserType]      NVARCHAR (20)   NOT NULL,
+    PRIMARY KEY CLUSTERED ([User_ID] ASC)
+);
+
+CREATE TABLE [dbo].[Employee] (
+    [Emp_ID]        INT             IDENTITY (1, 1) NOT NULL,
+    [User_ID]       INT             NULL,
+    [Emp_FName]     NVARCHAR (50)   NULL,
+    [Emp_LName]     NVARCHAR (50)   NULL,
+    [Emp_Birthday]  DATE            NULL,
+    [Emp_Job]       NVARCHAR (50)   NULL,
+    PRIMARY KEY CLUSTERED ([Emp_ID] ASC),
+    CONSTRAINT [FK_Employee_LoginInfo] FOREIGN KEY ([User_ID]) REFERENCES [dbo].[LoginInfo] ([User_ID])
+);
+
+CREATE TABLE [dbo].[Customer] (
+    [Cust_ID]       INT             IDENTITY (1, 1) NOT NULL,
+    [User_ID]       INT             NULL,
+    [Cust_FName]    NVARCHAR (50)   NULL,
+    [Cust_LName]    NVARCHAR (50)   NULL,
+    [Cust_Email]    NVARCHAR (100)  NULL,
+    [Cust_Phone]    NVARCHAR (20)   NULL,
+    PRIMARY KEY CLUSTERED ([Cust_ID] ASC),
+    CONSTRAINT [FK_Customer_LoginInfo] FOREIGN KEY ([User_ID]) REFERENCES [dbo].[LoginInfo] ([User_ID])
+);
+
+CREATE TABLE [dbo].[Provider] (
+    [Provider_ID]       INT             IDENTITY (1, 1) NOT NULL,
+    [User_ID]           INT             NULL,
+    [Provider_Name]     NVARCHAR (100)  NULL,
+    [Provider_Type]     NVARCHAR (50)   NULL,
+    [Provider_Contact]  NVARCHAR (50)   NULL,
+    [Provider_Location] NVARCHAR (100)  NULL,
+    PRIMARY KEY CLUSTERED ([Provider_ID] ASC),
+    CONSTRAINT [FK_Provider_LoginInfo] FOREIGN KEY ([User_ID]) REFERENCES [dbo].[LoginInfo] ([User_ID])
+);
+
+CREATE TABLE [dbo].[Subscription] (
+    [Sub_ID]        INT             IDENTITY (1, 1) NOT NULL,
+    [Cust_ID]       INT             NOT NULL,
+    [Plan_Type]     NVARCHAR (50)   NULL,
+    [StartDate]     DATE            NULL,
+    [EndDate]       DATE            NULL,
+    [Status]        NVARCHAR (20)   NULL,
+    [Price]         DECIMAL (10,2)  NULL,
+    PRIMARY KEY CLUSTERED ([Sub_ID] ASC),
+    CONSTRAINT [FK_Subscription_Customer] FOREIGN KEY ([Cust_ID]) REFERENCES [dbo].[Customer] ([Cust_ID])
+);
+
+CREATE TABLE [dbo].[Booking] (
+    [Booking_ID]    INT             IDENTITY (1, 1) NOT NULL,
+    [Cust_ID]       INT             NOT NULL,
+    [Provider_ID]   INT             NOT NULL,
+    [Emp_ID]        INT             NULL,
+    [BookingDate]   DATE            NULL,
+    [TravelDate]    DATE            NULL,
+    [Status]        NVARCHAR (20)   NULL,
+    [TotalAmount]   DECIMAL (10,2)  NULL,
+    PRIMARY KEY CLUSTERED ([Booking_ID] ASC),
+    CONSTRAINT [FK_Booking_Customer] FOREIGN KEY ([Cust_ID]) REFERENCES [dbo].[Customer] ([Cust_ID]),
+    CONSTRAINT [FK_Booking_Provider] FOREIGN KEY ([Provider_ID]) REFERENCES [dbo].[Provider] ([Provider_ID]),
+    CONSTRAINT [FK_Booking_Employee] FOREIGN KEY ([Emp_ID]) REFERENCES [dbo].[Employee] ([Emp_ID])
+);
+
+CREATE TABLE [dbo].[Payment] (
+    [Payment_ID]    INT             IDENTITY (1, 1) NOT NULL,
+    [Booking_ID]    INT             NOT NULL,
+    [Amount]        DECIMAL (10,2)  NULL,
+    [PaymentDate]   DATE            NULL,
+    [Method]        NVARCHAR (30)   NULL,
+    [Status]        NVARCHAR (20)   NULL,
+    PRIMARY KEY CLUSTERED ([Payment_ID] ASC),
+    CONSTRAINT [FK_Payment_Booking] FOREIGN KEY ([Booking_ID]) REFERENCES [dbo].[Booking] ([Booking_ID])
+);
